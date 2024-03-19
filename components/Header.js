@@ -25,7 +25,7 @@ export default function Header() {
           ></path>
         </svg>
       </div>
-      <div className="flex w-[40%] justify-end items-center	 ">
+      <div className="flex w-[40%] justify-end items-center	">
         <button className="h-12 w-28 text-black bg-white text-sm ">
           {' '}
           REGISTER
