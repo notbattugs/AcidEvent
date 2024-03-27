@@ -9,10 +9,11 @@ import Imae from '@/components/Image';
 import Company from '@/components/companyPitches';
 export default function Home() {
   return (
-    <div>
+    <div className="fixed top-0 w-screen h-screen overflow-y-scroll overflow-x-none">
       <Header />
       <AWorldInTransition />
       <Overview />
+      <div className="w-screen h-20 bg-gradient-to-b from-slate-50 to-bg[#000]"></div>
       <Organised />
       <Imae />
       <Company />

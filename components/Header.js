@@ -2,20 +2,22 @@ import React from 'react';
 
 export default function Header() {
   return (
-    <div className="h-[70px] w-screen bg-[#5563e6] flex justify-between items-center gap-10">
-      <div className="text-white flex text-xs gap-10 w-[40%] justify-center items-center	">
+    <div className="h-[80px] w-[100vw] bg-[#5563e6] flex justify-between items-center gap-10 fixed top-0">
+      <div className="text-white text-xs gap-8 w-[40%] justify-center items-center	hidden lg:flex">
+        <div className="w-5 h-5"></div>
         <div>OVERVIEW</div>
         <div>SPONSORS</div>
         <div>PROGRAM</div>
         <div className="w-">CAREER FAIR</div>
       </div>
-      <div className="w-1/3 flex justify-center items-center">
+      <div className="w-2/3 h-full flex justify-center items-center p-10">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="51"
           height="50"
           viewBox="0 0 91 90"
           fill="none"
+          className="hidden lg:flex"
         >
           <path
             fill-rule="evenodd"
@@ -24,12 +26,34 @@ export default function Header() {
             fill="white"
           ></path>
         </svg>
+
+        <img
+          src="https://assets-global.website-files.com/65adbc76df6108aab934a79a/65adc1b7d3d626551bd1f26c_Logotype.svg"
+          className="w-[400px] h-[200px] block lg:hidden"
+        ></img>
       </div>
       <div className="flex w-[40%] justify-end items-center	 ">
-        <button className="h-12 w-28 text-black bg-white text-sm ">
+        <button className="h-12 w-28 text-black justify-center items-center bg-white text-sm hidden lg:flex">
           {' '}
           REGISTER
         </button>
+        <div className="w-8 h-8 rounded-full bg-white flex justify-center items-center lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-4 h-4"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M3.75 9h16.5m-16.5 6.75h16.5"
+            />
+          </svg>
+        </div>
+
         <div className="w-5 h-5"></div>
       </div>
     </div>
