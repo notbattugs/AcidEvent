@@ -25,7 +25,7 @@ export default function Overview() {
           <div className="p-6 bg-[#5563e6] flex flex-col justify-between w-full gap-10">
             <h1 className="text-xl text-white font-mono">Company Stands</h1>
             <h1 className="text-8xl text-white font-bold text-right tracking-tighter">
-              15+
+              15+;
             </h1>
           </div>
           <div className="p-6 bg-[#5563e6] flex flex-col justify-between w-full gap-10">

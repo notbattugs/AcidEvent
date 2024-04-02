@@ -26,25 +26,25 @@ export default function Organised() {
           </div>
         </div>
         <div className="h-1/2 w-full flex justify-around items-center flex-col lg:flex-row gap-1">
-          <div className="w-full lg:1/4 h-full">
+          <div className="w-full lg:1/4 h-full bg-[#dde0fa]">
             <img
               src="https://i.ibb.co/4mJdwyZ/image.png"
               className="w-full f-hull"
             ></img>
           </div>
-          <div className="w-full lg:1/4 h-full">
+          <div className="w-full lg:1/4 h-full bg-[#dde0fa]">
             <img
               src="https://i.ibb.co/4J1NgQW/image.png"
               className="w-full f-hull"
             ></img>
           </div>
-          <div className="w-full lg:1/4 h-full">
+          <div className="w-full lg:1/4 h-full bg-[#dde0fa]">
             <img
               src="https://i.ibb.co/hWsVvB1/image.png"
               className="w-full f-hull"
             ></img>
           </div>
-          <div className="w-full lg:1/4 h-full">
+          <div className="w-full lg:1/4 h-full bg-[#dde0fa]">
             <img
               src="https://i.ibb.co/9prh7Hw/image.png"
               className="w-full f-hull"

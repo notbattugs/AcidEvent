@@ -25,7 +25,9 @@ export default function Footer() {
     <div className='w-screen h-screen flex justify-between items-center flex-col bg-[#5563e6] bg-[url("https://assets-global.website-files.com/65adbc76df6108aab934a79a/65afa3e9249fe86d7aa216ca_footer_gemstone.webp")] bg-auto bg-center bg-no-repeat'>
       <div className="w-screen h-[10%] flex justify-start items-center">
         <div className="w-10 h-auto"></div>
-        <h1 className="text-white flex text-xs">PRIVACY POLICY</h1>
+        <a href="/Privacy">
+          <h1 className="text-white flex text-xs">PRIVACY POLICY</h1>
+        </a>
       </div>
       <div className="w-screen h-auto flex justify-center items-center group">
         <div className="group-hover:-rotate-12 group-hover:mr-10 group-hover:mt-8 w-[400px] h-60 backdrop-blur-md bg-white/30 flex justify-center items-between transform transition-all duration-1000">
